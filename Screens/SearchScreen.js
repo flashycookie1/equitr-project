@@ -4,12 +4,13 @@ import Icon from 'react-native-vector-icons/Feather';
 import SearchBar from '@/components/SearchBar';
 import Category from '@/components/Category';
 import Article from '@/components/Article';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function SearchScreen() {
   const [searchValue, setSearch] = useState('');
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.topSec}>
         <SearchBar inputBar={setSearch} valueBar={searchValue} />
         <View
@@ -26,9 +27,10 @@ export default function SearchScreen() {
         </View>
       </View>
       <View style={styles.bottomSec}>
-        <Article />
+        <Article/>
+        <Article/>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 

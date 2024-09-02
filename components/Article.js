@@ -27,7 +27,7 @@ export default function Article({title}) {
       <View style={styles.sumSec}>
         <Text
           style={{
-            fontFamily: 'Lastik',
+            fontFamily: 'Lastik-Regular.otf',
             fontSize: 12,
             color: '#64615C',
           }}>
@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     width: '100%',
     flexDirection: 'column',
     justifyContent: 'space-between',
+    paddingBottom: 30,
     // backgroundColor: 'red',
   },
   imgSec: {

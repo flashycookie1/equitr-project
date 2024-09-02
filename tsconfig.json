@@ -13,6 +13,5 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "Screens/FeedScreen.js", "Screens/ProfileScreen.js", "Screens/SearchScreen.js"  ]
+    "expo-env.d.ts"]
 }

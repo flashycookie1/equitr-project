@@ -1,11 +1,12 @@
 import {StyleSheet, View, Text} from 'react-native';
 import FeedPage from '@/components/FeedPage';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function FeedScreen() {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <FeedPage />
-    </View>
+    </SafeAreaView>
   );
 }
 

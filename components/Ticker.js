@@ -14,7 +14,7 @@ export default function Ticker({name, percent}) {
       <View
         style={{
           borderColor: percent > 0 ? '#CCFF00' : '#FF823C',
-          borderRadius: 2,
+          borderRadius: 5,
           borderWidth: 1,
           justifyContent: 'center',
           alignItems: 'center',
